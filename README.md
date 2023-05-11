@@ -20,7 +20,7 @@
 ### 설치 방법
 #### Windows 환경
 1. 이 레포지토리를 내려받습니다.
-1. [node.js](https://nodejs.org/ko/) 인스톨러를 내려받아 설치(버전 8 이상)합니다. [npm](https://www.npmjs.com/)과 함께 설치되어야 합니다.
+1. [node.js](https://nodejs.org/ko/) 인스톨러를 내려받아 설치(버전 6 이상)합니다. [npm](https://www.npmjs.com/)과 함께 설치되어야 합니다.
 1. 명령 프롬프트에서 `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
 1. [PostgreSQL](https://www.postgresql.org/) 인스톨러를 내려받아 *pgAdmin*(자동으로 설치됨)과 함께 설치합니다.
 1. *pgAdmin*을 실행시키고 SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
@@ -31,7 +31,7 @@
 
 #### Linux 환경
 1. 이 레포지토리를 내려받습니다.
-1. 패키지 매니저를 이용하여 [node.js](https://nodejs.org/)와 [npm](https://www.npmjs.com/)을 설치(버전 8 이상)합니다.
+1. 패키지 매니저를 이용하여 [node.js](https://nodejs.org/)와 [npm](https://www.npmjs.com/)을 설치(버전 6 이상)합니다.
 1. `npm install -g grunt grunt-cli`를 입력해 [grunt](https://gruntjs.com/)를 설치합니다.
 1. 패키지 매니저를 이용하여 [PostgreSQL](https://www.postgresql.org/)과 *psql*을 설치합니다.
 1. SQL 파일(`./db.sql`)을 데이터베이스에 입력시킵니다.
@@ -43,6 +43,7 @@
 
 #### 공통
 - PostgreSQL 데이터베이스 서버에 접속하기 위해 설정 파일(`./Server/lib/sub/global.json`)에서 `PG_PASS` 값을 **반드시** 수정해야 합니다.
+- "Server\lib\node_modules"에 **반드시** passport-daldalso 폴더를 통째로 넣어주세요 (달달소 로그인 지원을 위한 작업)
 - 폴더 `./Server/lib/sub`에 oAuth 설정 파일(`auth.json`)과 전역 설정 파일(`global.json`)을 **반드시** 만들어 주세요. 본 레포지토리에는 각 파일의 양식이 들어가 있습니다.
 - 본 레포지토리에는 [WordNet](https://wordnet.princeton.edu/) 자료가 포함되어 있습니다. 서버를 운영할 때 반드시 사용자에게 이에 대한 라이선스를 안내해야 합니다.
 - 호스트 `127.0.0.2`는 웹 서버와 게임 서버 사이의 연결을 위해 예약된 주소이므로 이 주소를 사용하지 말아야 합니다.
@@ -66,7 +67,7 @@ This repository provides you what you have to prepare to play **KKuTu**.
 ### How to Install
 #### For Windows
 1. Download or clone this repository to your machine.
-1. Install [node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/)(this will be installed automatically). The version should be ≥8.
+1. Install [node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/)(this will be installed automatically). The version should be ≥6.
 1. Open *cmd* and run `npm install -g grunt grunt-cli` to install [grunt](https://gruntjs.com/).
 1. Install [PostgreSQL](https://www.postgresql.org/) database server and *pgAdmin*(this will be installed automatically).
 1. Run *pgAdmin* and put the SQL file(`./db.sql`) into your database.
@@ -77,7 +78,7 @@ This repository provides you what you have to prepare to play **KKuTu**.
 
 #### For Linux
 1. Download or clone this repository to your machine.
-1. Install [node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) via a package manager. The version should be ≥8.
+1. Install [node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) via a package manager. The version should be ≥6.
 1. Run `npm install -g grunt grunt-cli` to install [grunt](https://gruntjs.com).
 1. Install [PostgreSQL](https://www.postgresql.org/) database server via a package manager.
 1. Put the SQL file(`./db.sql`) into your database.

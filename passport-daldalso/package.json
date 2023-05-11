@@ -1,0 +1,59 @@
+{
+  "_from": "passport-daldalso@^1.0.8",
+  "_id": "passport-daldalso@1.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-nq15nK8fHfDzD720Xzq2lfULdO9UvDOD9Gb15v9TA0wOYaq+CVvz1Ahn/JpwbV5N0xEfFT9eEVCVdLFCazazsQ==",
+  "_location": "/passport-daldalso",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "passport-daldalso@^1.0.8",
+    "name": "passport-daldalso",
+    "escapedName": "passport-daldalso",
+    "rawSpec": "^1.0.8",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.8"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/passport-daldalso/-/passport-daldalso-1.1.4.tgz",
+  "_shasum": "6cee5ec5d4b379275c5c05a01ac39eb787a46117",
+  "_spec": "passport-daldalso@^1.0.8",
+  "_where": "C:\\Users\\railfansnail\\Desktop\\철팽끄투\\RailfansnailKKuTu-New\\Server\\lib",
+  "author": {
+    "name": "베프",
+    "email": "op@bf2.xyz",
+    "url": "https://github.com/lshqqytiger"
+  },
+  "bugs": {
+    "url": "http://github.com/lshqqytiger/passport-daldalso/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/passport": "^1.0.6",
+    "@types/passport-oauth2": "^1.4.10",
+    "@types/uid2": "0.0.0",
+    "@types/underscore": "^1.10.24"
+  },
+  "deprecated": false,
+  "description": "Daldalso authentication strategy for Passport",
+  "homepage": "https://daldal.so/oauth",
+  "keywords": [
+    "passport",
+    "daldalso",
+    "oauth2"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "passport-daldalso",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lshqqytiger/passport-daldalso.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "version": "1.1.4"
+}
