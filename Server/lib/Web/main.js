@@ -159,7 +159,7 @@ Const.MAIN_PORTS.forEach(function(v, i){
 	} else {
 		protocol = 'ws';
 	}
-	gameServers[i] = new GameClient(KEY, `${protocol}://${GLOBAL.GAME_SERVER_HOST}:${v}/${KEY}`);
+	gameServers[i] = new GameClient(KEY, `${protocol}://127.0.0.2:${v}/${KEY}`);
 });
 function GameClient(id, url){
 	var my = this;
@@ -248,10 +248,10 @@ Server.get("/", function(req, res){
 			'KO_THEME': Const.KO_THEME,
 			'EN_THEME': Const.EN_THEME,
 			'IJP_EXCEPT': Const.IJP_EXCEPT,
-			'ogImage': "http://kkutu.kr/img/kkutu/logo.png",
-			'ogURL': "http://kkutu.kr/",
-			'ogTitle': "글자로 놀자! 끄투 온라인",
-			'ogDescription': "끝말잇기가 이렇게 박진감 넘치는 게임이었다니!"
+			'ogImage': "http://rfskkutu.kro.kr/img/kkutu/logo.png",
+			'ogURL': "http://rfskkutu.kro.kr/",
+			'ogTitle': "끄투 순정을 다시 즐겨보세요! 철팽끄투",
+			'ogDescription': "끄투 원본! 철팽끄투에서 그대로 즐기세요!"
 		});
 	}
 });

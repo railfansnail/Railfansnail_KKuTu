@@ -11,8 +11,7 @@ module.exports.config = {
 module.exports.strategyConfig = {
     clientID: config.kakao.clientID, // 보안을 위해서입니다.
     callbackURL: config.kakao.callbackURL,  // 이 방법을 사용하는 것을
-    passReqToCallback: true,  // 적극 권장합니다.
-	scope: [ "profile_nickname", "profile_image" ]
+    passReqToCallback: true  // 적극 권장합니다.
 }
 
 module.exports.strategy = (process, MainDB, Ajae) => {
@@ -21,7 +20,7 @@ module.exports.strategy = (process, MainDB, Ajae) => {
 
         $p.authType = "kakao";
         $p.id = profile.id.toString();
-        $p.name = profile.username;
+        $p.name = +profile.username;
         $p.title = profile.displayName;
         $p.image = profile._json.properties.profile_image;
 

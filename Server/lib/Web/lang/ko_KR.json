@@ -1,12 +1,12 @@
 {
 	"GLOBAL": {
-		"GPL": "<div style='color: #666;'>글자로 놀자! 끄투 온라인 Copyright (C) {년도} {배포자}({이메일 등})<br>이 프로그램은 제품에 대한 어떠한 형태의 보증도 제공되지 않습니다.<br>이 프로그램은 자유 소프트웨어이며 배포 규정을 만족시키는 조건 아래 자유롭게 재배포할 수 있습니다.<br>이에 대한 자세한 사항은 본 프로그램의 구현을 담은 다음 레포지토리에서 확인하십시오: <a target='_blank' href='{이 서버의 소스 코드 위치}'>{이 서버의 소스 코드 위치}</a></div>",
+		"GPL": "<div style='color: #666;'>글자로 놀자! 끄투 온라인 Copyright (C) 2023 철덕팽이(railfansnail@kakao.com)<br>이 프로그램은 제품에 대한 어떠한 형태의 보증도 제공되지 않습니다.<br>이 프로그램은 자유 소프트웨어이며 배포 규정을 만족시키는 조건 아래 자유롭게 재배포할 수 있습니다.<br>이에 대한 자세한 사항은 본 프로그램의 구현을 담은 다음 레포지토리에서 확인하십시오: <a target='_blank' href='https://github.com/railfansnail/Railfansnail_KKuTu/'>https://github.com/railfansnail/Railfansnail_KKuTu/</a></div>",
 
-		"CREATOR":	"개발자 블로그",
+		"CREATOR":	"[비활성화된 버튼입니다]",
 		"HOME":		"FA{home}",
 		"GAMES":	"게임",
 		"GAMES_KKUTU":	"끄투",
-		"GAMES_FATES":	"카드 뽑기",
+		"GAMES_FATES":	"비활성화된 버튼입니다",
 		"GALLERY": "갤러리",
 		"LEBS":		"LEBS",
 		"ETC":		"???",
@@ -108,7 +108,7 @@
 	"login": {
 		"title": "로그인",
 		"loginWith": "로그인 방법을 선택하세요.",
-		"withDaldalso": "달달소 아이디로 로그인",
+                        "withDaldalso": "달달소 아이디로 로그인",
 		"withNaver": "네이버 아이디로 로그인",
 		"withFacebook": "페이스북 아이디로 로그인",
 		"withGoogle": "구글 아이디로 로그인",
@@ -120,7 +120,7 @@
 		"withLine": "라인 아이디로 로그인",
 		"withInstagram": "인스타그램 아이디로 로그인",
 		"withSpotify": "Spotify 아이디로 로그인",
-		"login_kkutu": "글자로 놀자! 끄투 온라인을 이용하시려면 로그인을 해 주세요."
+		"login_kkutu": "교통 중심 끄투! 철팽끄투를 이용하시려면 로그인을 해 주세요."
 	},
 	"loginfail": {
 		"title": "로그인 실패",
@@ -128,8 +128,8 @@
 		"login": "로그인"
 	},
 	"kkutu": {
-		"title": "글자로 놀자! 끄투 온라인",
-		"version": "2.5.1",
+		"title": "교통 중심 끄투! 철팽끄투",
+		"version": "1.7",
 		
 		"meta_desc": "온라인 끝말잇기, 앞말잇기, 자음퀴즈, 십자말풀이, 타자 대결까지! 끄투에서 어휘력의 제왕이 되어 보세요.",
 		"meta_keys": "끄투,kkutu,끝말잇기,온라인,웹,쿵쿵따,영어끝말잇기,영어쿵쿵따,시리토리,끝말잇기사이트,자음퀴즈,초성퀴즈,자퀴,십자말풀이,가로세로,타자,타자연습,앞말잇기",
@@ -138,10 +138,10 @@
 		"serverList": "서버 목록",
 		"serverRefresh": "서버 목록을 다시 불러옵니다.",
 		"serverWait": "잠시 기다려 주세요.",
-		"server_0": "감자",
-		"server_1": "냉이",
-		"server_2": "다래",
-		"server_3": "레몬",
+		"server_0": "환승센터",
+		"server_1": "지하철",
+		"server_2": "버스",
+		"server_3": "감자",
 		"server_4": "망고",
 		"server_5": "보리",
 		"server_6": "상추",
@@ -214,7 +214,6 @@
 		"error_443": "관리자에 의해 해당 계정으로의 채팅 이용이 제한되었습니다.",
 		"error_444": "관리자에 의해 해당 계정으로의 게임 이용이 제한되었습니다.\n제한 사유: ",
 		"error_445": "본인 확인에 성공했습니다. 끄투를 이용해 주셔서 감사합니다.",
-		"error_446": "관리자에 의해 해당 IP 주소로의 게임 이용이 제한되었습니다.\n제한 사유: ",
 		"error_450": "해당 사용자가 끄투에 접속하지 않았거나 이 서버에 접속해 있지 않습니다.",
 		"error_451": "커뮤니티 기능은 로그인 후 이용하실 수 있습니다.\n우측 상단의 로그인 단추를 눌러 로그인해 보세요!",
 		"error_452": "더 이상 친구를 추가할 수 없습니다.",
@@ -276,7 +275,7 @@
 		"modeETY": "영어 타자 대결",
 		"modeKAP": "한국어 앞말잇기",
 		"modeHUN": "훈민정음",
-		"modeKDA": "한국어 단어 대결",
+		"modeKDA": "한국어 단어 대결 (대한민국 철도역 추천)",
 		"modeEDA": "영어 단어 대결",
 		"modeKSS": "한국어 솎솎",
 		"modeESS": "영어 솎솎",
@@ -660,7 +659,7 @@
 		"replayDate": "기록 날짜",
 		"replayPlayers": "참가자",
 		"replayView": "보기",
-		"replayError": "올바른 끄투 리플레이 파일이 아닙니다.",
+		"replayError": "올바른 철팽끄투 리플레이 파일이 아닙니다.",
 		"replayPrev": "←",
 		"replayPause": "❚❚",
 		"replayResume": "▶",
@@ -669,11 +668,11 @@
 		"aiSetting": "AI 설정",
 		"selectLevel": "난이도",
 		"aiLevel-1": "구경꾼",
-		"aiLevel0": "왕초보",
-		"aiLevel1": "초보",
-		"aiLevel2": "적절",
-		"aiLevel3": "고수",
-		"aiLevel4": "사기",
+		"aiLevel0": "왕초보 (미작동)",
+		"aiLevel1": "초보 (미작동)",
+		"aiLevel2": "적절 (미작동)",
+		"aiLevel3": "고수 (거의 미작동)",
+		"aiLevel4": "사기 (거의 작동)",
 		"team": "팀",
 		
 		"searching": "검색 중",
