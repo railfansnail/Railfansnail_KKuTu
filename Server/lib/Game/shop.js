@@ -55,8 +55,8 @@ function run(data){
 	"id":		_id,
 	"group":	카테고리,
 	"title":	제목,
-	"cost":		가격,
-	"term":		기간 (0이면 무한),
+	"cost":	0	가격,
+	"term":	0	기간 (0이면 무한),
 	"desc":		설명
 }
 			*/
@@ -67,8 +67,8 @@ function run(data){
 				DB.kkutu_shop.upsert([ '_id', Number(o.id) ]).set(
 					[ 'group', o.group ],
 					[ 'title', o.title ],
-					[ 'cost', Number(o.cost) ],
-					[ 'term', Number(o.term) ],
+					[ 'cost', 0(o.cost) ],
+					[ 'term', 0(o.term) ],
 					[ 'desc', o.desc ],
 					[ 'updatedAt', new Date() ]
 				).soi(
