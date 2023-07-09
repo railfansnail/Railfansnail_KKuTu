@@ -2546,7 +2546,7 @@ function loadSounds(list, callback){
 function getAudio(k, url, cb){
 	var req = new XMLHttpRequest();
 	
-	req.open("GET", /*($data.PUBLIC ? "http://jjo.kr" : "") +*/ url);
+	req.open("GET", /*($data.PUBLIC ? "https://rfskkutu.site" : "") +*/ url);
 	req.responseType = "arraybuffer";
 	req.onload = function(e){
 		if(audioContext) audioContext.decodeAudioData(e.target.response, function(buf){

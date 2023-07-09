@@ -248,10 +248,10 @@ Server.get("/", function(req, res){
 			'KO_THEME': Const.KO_THEME,
 			'EN_THEME': Const.EN_THEME,
 			'IJP_EXCEPT': Const.IJP_EXCEPT,
-			'ogImage': "http://rfskkutu.kro.kr/img/kkutu/logo.png",
-			'ogURL': "http://rfskkutu.kro.kr/",
-			'ogTitle': "끄투 순정을 다시 즐겨보세요! 철팽끄투",
-			'ogDescription': "끄투 원본! 철팽끄투에서 그대로 즐기세요!"
+			'ogImage': "https://rfskkutu.site/img/kkutu/logo.png",
+			'ogURL': "https://rfskkutu.site",
+			'ogTitle': "교통 중심 끄투! 철팽끄투",
+			'ogDescription': "교통을 중심으로, 철팽끄투"
 		});
 	}
 });

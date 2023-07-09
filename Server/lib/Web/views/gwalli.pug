@@ -17,14 +17,14 @@
 extends layout
 
 block Subject
-	title *** JJO.KR 관리 페이지 ***
+	title 철팽끄투 관리자 콘솔
 
 block JS
 	script(type="text/javascript", src="/js/in_admin.min.js")
 	
 block Middle
 	fieldset
-		legend 자격
+		legend 인증
 		input#db-password(type='password', placeholder='암호')
 		input#db-lang(placeholder='테이블')
 	fieldset
@@ -68,7 +68,7 @@ block Middle
 			button#shop-add 추가
 			button#shop-apply 적용
 	fieldset
-		legend 유저 DB 다루기
+		legend 유저 DB 다루기 (잘못만지면 서버 죽음)
 		div
 			input#user-id(placeholder='ID')
 			input#user-nick(placeholder='닉네임')
@@ -101,7 +101,7 @@ block Middle
 						td 서버
 					tbody#gamsi-data
 	fieldset
-		legend 끄투 DB 다루기
+		legend 끄투 DB 다루기 (잘못만지면 서버 죽음)
 		div
 			input#db-word(placeholder='단어')
 			button#db-go 조회
@@ -127,7 +127,7 @@ block Middle
 			textarea#db-list(rows=20, cols=100)
 			button#db-ok 확인
 	fieldset
-		legend 끄투에서의 인기 단어
+		legend 끄투에서의 인기 단어 (잘못만지면 서버 죽음)
 		button#kpw-query 조회
 		textarea#kpw-html
 		div#kpw-table

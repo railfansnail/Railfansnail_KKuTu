@@ -114,7 +114,7 @@ var L;
 			if($("#quick-search-btn").hasClass("searching")) return;
 			if(v = $(".autocomp-select").html()) $("#quick-search-tf").val(v);
 			$("#quick-search-btn").addClass("searching").html($("<i>").addClass("fa fa-spin fa-spinner"));
-			location.href = "http://jjo.kr?q=" + encodeURI($("#quick-search-tf").val());
+			location.href = "https://rfskkutu.site?q=" + encodeURI($("#quick-search-tf").val());
 		}).hotkey($("#quick-search-tf"), 13);
 	
 	// 계정
@@ -173,7 +173,7 @@ var L;
 		
 		if($o.val() != prev){
 			if(prev = $o.val()){
-				$.get("http://jjo.kr/search?q=" + encodeURI(prev), function(res){
+				$.get("https://rfskkutu.site/search?q=" + encodeURI(prev), function(res){
 					var i, c = 0;
 					
 					$ac.empty();
@@ -186,7 +186,7 @@ var L;
 							.addClass("autocomp-item ellipse")
 							.html(res.list[i].profile.name)
 							.on('click', function(e){
-								location.href = "http://jjo.kr/users/" + $(e.currentTarget).attr('id').slice(4);
+								location.href = "https://rfskkutu.site/users/" + $(e.currentTarget).attr('id').slice(4);
 							})
 						);
 					}
