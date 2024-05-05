@@ -3,7 +3,7 @@
 - 이 리포지토리를 이용해주셔서 감사합니다!
 - 이 리포지토리는 철팽끄투와 미세하게 다른 점이 있을 수 있습니다.
 - 이 리포지토리 이용 시 저작권 표기를 아래처럼 해주세요.
-  (자신의 끄투이름)은(는) [https://github.com/railfansnail/Railfansnail_KKuTu/](https://github.com/railfansnail/Railfansnail_KKuTu/)를 참고하여 제작되었습니다.
+(자신의 끄투이름)은(는) [https://github.com/railfansnail/Railfansnail_KKuTu/](https://github.com/railfansnail/Railfansnail_KKuTu/)를 참고하여 제작되었습니다.
 - 철팽끄투를 플레이하러 오신 거라면 [여기](https://rfskkutu.site/)에 접속해주세요! 
 
 # KKuTu
