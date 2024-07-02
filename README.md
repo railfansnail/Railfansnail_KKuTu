@@ -6,7 +6,7 @@
 
 (자신의 끄투이름)은(는) [https://github.com/railfansnail/Railfansnail_KKuTu/](https://github.com/railfansnail/Railfansnail_KKuTu/)를 참고하여 제작되었습니다.
 
-- 철팽끄투를 플레이하러 오신 거라면 [여기](https://rfskkutu.site/)에 접속해주세요! 
+- 철팽끄투를 플레이하러 오신 거라면 [여기](https://kkutu.pe.kr/)에 접속해주세요! 
 
 # KKuTu
 - Made by [JJoriping](http://blog.jjo.kr/)
