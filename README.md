@@ -1,13 +1,15 @@
 # 교통을 중심으로, 철팽끄투
+*** (중요) 철팽끄투를 플레이하러 오신 거라면 [여기](https://kkutu.pe.kr/)에 접속해주시기 바랍니다. ***
+
 - 교통 단어를 약 6~8만개 이상 보유한 철팽끄투에서 실력을 펼처보세요!
-- 이 리포지토리를 이용해주셔서 감사합니다!
+- 이 리포지토리를 이용해주셔서 감사합니다.
 - 이 리포지토리는 철팽끄투와 미세하게 다른 점이 있을 수 있습니다.
 - 이 리포지토리는 철팽끄투 운영 환경에 최적화된 코드가 다수 포함되어 있습니다. 따라서 본인의 서버 환경에 최적화하지 않으면 일부 기능이 작동하지 않거나, 서버가 정상적으로 실행되지 않을 수 있으므로 이용 시에는 반드시 본인의 서버 환경에 맞춰 코드를 최적화한 후 실행해주시기 바랍니다.
 
-* 철팽끄투 리포지토리 이용 시에는 저작권 표기를 아래처럼 해주시기 바랍니다.
-(자신의 끄투이름)은(는) [https://github.com/railfansnail/Railfansnail_KKuTu/](https://github.com/railfansnail/Railfansnail_KKuTu/)를 참고하여 제작되었습니다.
 
-- 철팽끄투를 플레이하러 오신 거라면 [여기](https://kkutu.pe.kr/)에 접속해주시기 바랍니다.
+*** 철팽끄투 리포지토리 이용 시에는 저작권 표기를 아래처럼 해주시기 바랍니다. ***
+
+- (자신의 끄투이름)은(는) [https://github.com/railfansnail/Railfansnail_KKuTu/](https://github.com/railfansnail/Railfansnail_KKuTu/)를 참고하여 제작되었습니다.
 
 # KKuTu
 - Made by [JJoriping](http://blog.jjo.kr/)
